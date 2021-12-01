@@ -1,0 +1,19 @@
+.app-footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color:#00163b;
+    padding: 15px;
+}
+
+
+// Réglage Link Design
+
+.app-footer a {
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+}
+.app-footer a:hover {
+    text-decoration: underline ;
+
+}

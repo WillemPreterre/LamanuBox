@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+// responsive des images du Home
+
+@media screen and (max-width: 800px) {
+    .text-home-desc {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+// Réglage Link Design 
+button a {
+    color: white ;
+    text-decoration: none ;
+    padding: 20px;
+}
+button a:hover {
+    color: white ;
+    text-decoration: underline ;
+}
+// Changement  text
+.text-home-intro {
+    font-size: 20px;
+    padding:  30px 0px;
+}
+
+.text-home-desc {
+    margin-top: 40px;
+}
+
+.text-home-presentation {
+    font-size: 20px;
+}
+
+// Bouton accès calcul
+.button-calcul {
+    background-color: #fe0000;
+    padding: 23px;
+    font-size: 20px;
+}
+.button-calcul:hover {
+    background-color: #fe0000;
+}
